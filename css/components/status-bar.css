@@ -1,11 +1,20 @@
 .status-bar {
-  position: fixed;
-  top: 0;
+  box-sizing: border-box;
   width: 100%;
+  padding: 10px 3px;
+  
   display: flex;
   justify-content: center;
-  padding: 10px 3px;
-  box-sizing: border-box;
+  
+  position: fixed;
+  top: 0;
+
+  z-index: 10;
+}
+
+.status-bar--light{
+  background-color: var(--primary-color);
+  color: var(--subtitle-font-color);
 }
 
 .status-bar__column {

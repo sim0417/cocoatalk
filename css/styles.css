@@ -1,16 +1,21 @@
 @import "variables.css";
 @import "reset.css";
 
-
 /* Components */
 @import "./components/status-bar.css";
+@import "./components/menu-header.css";
+@import "./components/user-component.css";
+@import "./components/menu-tap.css";
+@import "./components/badge.css";
 
 /* Screens */
 @import "./screens/login.css";
+@import "./screens/friends.css";
 
 
 body {
   width: 100%;
+  background-color: var(--bg-color);
 }
 
 body * {

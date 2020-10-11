@@ -34,6 +34,7 @@
 }
 
 .form-login input:not([type="submit"]) {
+  background-color: var(--bg-color);
   border-bottom: var(--default-border);
   transition: border-bottom 0.2s ease-in;
 }

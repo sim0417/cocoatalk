@@ -1,0 +1,87 @@
+.menu-header {
+  padding: var(--default-padding);
+  padding-top: 50px;
+  margin-bottom: 15px;
+  background-color: var(--primary-color);
+  color: var(--subtitle-font-color);
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.menu-header__title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.menu-header__icons>span {
+  margin-left: 20px;
+  position: relative;
+}
+
+.menu-header__icons i{
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.menu-header__icons i:hover{
+  color: var(--focus-color);
+}
+
+.menu-header__notification{
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+
+.menu-header-alt {
+  padding: var(--default-padding);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-header-alt__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.menu-header-alt__column {
+  width: 33%;
+  display: flex;
+  align-items: center;
+}
+
+.menu-header-alt__column:first-child {
+  margin-right: auto;
+}
+
+.menu-header-alt__column:nth-child(2) {
+  justify-content: center;
+}
+
+.menu-header-alt__column:last-child {
+  margin-left: auto;
+  justify-content: flex-end;
+}
+
+.menu-header-alt__column:last-child i {
+  margin-left: 20px;
+}
+
+.menu-header__icons .fa-cog:hover {
+  animation: rotateAnimation 1s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+}

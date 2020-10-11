@@ -1,14 +1,20 @@
 :root {
-  --primary-color: #EDAB40;
+  --bg-color : #F9F9F9;
+  
+  --primary-color: #FCC778;
   --primary-font-color: #905F30;
+  --primary-font-color-dark:#2c2a27;
   --subtitle-font-color:#F9F9F9;
   --focus-color: #905F30;
 
-  --menu-icon-color: #F9F9F9;
-  --menu-font-color: #7e4611;
-
+  --menu-bg-color:#EAEAEA;
+  --menu-icon-color:#FCC778;
+  --menu-icon-color-dark:#2c2a27;
+  --menu-icon-focus-color:#905F30;
+  --menu-font-color:#905F30;
+  --menu-font-color-dark:#2c2a27;
   --chat-bg-color-blue: #ABC1D1;
 
-  --default-padding: 25px;
+  --default-padding: 20px;
   --default-border: 1px solid #905F30;
 }
