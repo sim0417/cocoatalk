@@ -48,9 +48,13 @@
 
 .user-component__status {
   margin-top: 8px;
-  color: var(--primary-font-color-dark);
+  color: var(--subtitle-font-color-dark);
 }
 
 .user-component__time {
   margin-bottom: 10px;
+}
+
+.user-component__info{
+  color: tomato;
 }

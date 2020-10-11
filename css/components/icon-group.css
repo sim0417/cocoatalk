@@ -11,24 +11,27 @@
 }
 
 .icon-group__icon {
-  color: var(-menu-icon-color-dark);
+  color: var(--subtitle-font-color-dark);
   display: flex;
   flex-direction: column;
   align-items: center;
   cursor: pointer;
-
-  transition: color,transform 0.3s;
-}
-
-.icon-group__icon:hover{
-  color: var(--menu-icon-focus-color);
-  transform: scale(1.1);
 }
 
 .icon-group__icon i {
   font-size: 2.0rem;
+  transition: transform 0.3s;
 }
 
 .icon-group__icon span {
   margin-top: 20px;
+  transition: color 0.3s;
+}
+
+.icon-group__icon:hover{
+  color: var(--menu-icon-focus-color); 
+}
+
+.icon-group__icon:hover i {
+  transform: scale(1.2);
 }
