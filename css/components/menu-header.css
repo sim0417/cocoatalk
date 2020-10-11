@@ -38,6 +38,7 @@
 
 .menu-header-alt {
   padding: var(--default-padding);
+  padding-top: 50px;
   margin-bottom: 15px;
   display: flex;
   align-items: center;
@@ -45,12 +46,14 @@
 }
 
 .menu-header-alt__title {
+  color: var(--primary-font-color-dark);
   font-size: 1.5rem;
   font-weight: 600;
 }
 
 .menu-header-alt__column {
   width: 33%;
+  color: var(--primary-font-color-dark);
   display: flex;
   align-items: center;
 }
@@ -70,6 +73,17 @@
 
 .menu-header-alt__column:last-child i {
   margin-left: 20px;
+}
+
+.menu-header-alt i,
+.menu-header-alt a{
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.menu-header-alt i:hover,
+.menu-header-alt a:hover{
+  color: var(--focus-color);
 }
 
 .menu-header__icons .fa-cog:hover {

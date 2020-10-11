@@ -1,0 +1,43 @@
+.settings{
+  margin-bottom: 70px;
+}
+
+.settings-setting {
+  padding: 20px 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+
+.settings-setting:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.settings-setting:last-child {
+  border-bottom: none;
+}
+
+.settings-setting i {
+  width: 35px;
+  font-size: 1rem;
+  color: var(--primary-font-color-dark);
+}
+
+.setting__column {
+  display: flex;
+}
+
+.setting__column span {
+  margin-right: 10px;
+}
+
+.setting__column:last-child {
+  color: var(--subtitle-font-color-dark);
+}
