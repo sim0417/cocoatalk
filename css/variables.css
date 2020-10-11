@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #EDAB40;
+  --primary-font-color: #905F30;
+  --subtitle-font-color:#F9F9F9;
+  --focus-color: #905F30;
+
+  --menu-icon-color: #F9F9F9;
+  --menu-font-color: #7e4611;
+
+  --chat-bg-color-blue: #ABC1D1;
+
+  --default-padding: 25px;
+  --default-border: 1px solid #905F30;
+}
