@@ -27,7 +27,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .chat__timestamp {
@@ -60,15 +59,15 @@
 
 .message-row:nth-child(2),
 .message-row:nth-child(2) .message__box{
-  animation-delay: 1.5s;
+  animation-delay: 0.8s;
 }
 .message-row:nth-child(3),
 .message-row:nth-child(3) .message__box{
-  animation-delay: 2.5s;
+  animation-delay: 0.9s;
 }
 .message-row:nth-child(4),
 .message-row:nth-child(4) .message__box{
-  animation-delay: 3.5s;
+  animation-delay: 1.5s;
 }
 
 

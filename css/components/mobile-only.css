@@ -1,0 +1,45 @@
+.mobile-only {
+  width: 100vw;
+  height: 100vh;
+  color: var(--primary-font-color);
+  background-color: var(--primary-color);
+
+  font-size: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 0;
+
+  position: fixed;
+  z-index: 99;
+}
+
+.mobile-only__big-screen,
+.mobile-only__horizontal-screen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-only__horizontal-screen{
+  visibility: hidden;
+}
+
+@media screen and (max-width:645px) and (orientation:landscape){
+  .mobile-only__big-screen{
+    visibility: hidden;
+  }
+  .mobile-only__horizontal-screen{
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width:645px) and (orientation:portrait){
+  .mobile-only {
+    display: none;
+  }
+}
+

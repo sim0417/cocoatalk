@@ -8,6 +8,8 @@
 @import "./components/menu-tap.css";
 @import "./components/badge.css";
 @import "./components/icon-group.css";
+@import "./components/splash-screen.css";
+@import "./components/mobile-only.css";
 
 /* Screens */
 @import "./screens/login.css";
