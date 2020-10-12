@@ -6,6 +6,7 @@
   --primary-font-color-dark:#2c2a27;
   --subtitle-font-color:#F9F9F9;
   --subtitle-font-color-dark:#2c2a278c;
+
   --focus-color: #905F30;
 
   --menu-bg-color:#EAEAEA;
@@ -14,7 +15,9 @@
   --menu-icon-focus-color:#905F30;
   --menu-font-color:#905F30;
   --menu-font-color-dark:#2c2a27;
+
   --chat-bg-color-blue: #ABC1D1;
+  --chat-bg-color-cheese: #fce4c5;
 
   --default-padding: 20px;
   --default-border: 1px solid #905F30;
